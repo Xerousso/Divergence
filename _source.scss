@@ -1,0 +1,141 @@
+// Change the primary color of background, also make user area overflow possible
+.base-3dtUhz, .bg-h5JY_x, .scroller-1Bvpku {
+    background-color: var(--background-primary);
+    overflow: visible;
+}
+
+/* Padding for whole chat area */ .chat-3bRxxu { margin-right: 20px; }
+
+// Sidebar on the left that contains channels/DMs and voice channel controls (turn into panel)
+.sidebar-2K8pFh {
+    background: none;
+    width: 280px;
+}
+
+// Channel area
+.container-3w7J-x, .privateChannels-1nO12o {
+    margin: 0px 20px 20px 20px;
+    border-radius: 20px !important;
+}
+/* Curve server header */ .clickable-25tGDB .header-2V-4Sw:hover, .selected-31Nl7x .header-2V-4Sw, .bannerImage-3KhIJ6, .animatedContainer-1NSq4T { border-radius: 20px 20px 0px 0px; }
+
+// Voice controls
+.panels-j1Uci_ {
+    margin: 0px 20px 20px 20px;
+    border-radius: 20px !important;
+    background-color: var(--background-secondary);
+
+    // Mute & deafen box
+    .container-3baos1 {
+        height: 44px;
+        > .flex-1xMQg5 {
+            > button:nth-last-child(2) {
+                position: absolute;
+                left: 220px;
+                bottom: 27px;
+            }
+            
+            > button:nth-last-child(3) {
+                position: absolute;
+                left: 185px;
+                bottom: 27px;
+            }
+        }
+    }
+
+    .container-1giJp5 {
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+// Member area on the right (turn into panel)
+.members-1998pB {
+    margin: 20px 0px 20px 0px;
+    border-radius: 20px !important;
+}
+
+// Text area (turn into panel)
+.scrollableContainer-2NUZem {
+    border-radius: 20px;
+    min-height: 40px;
+    background-color: var(--background-secondary);
+    margin-right: 20px;
+}
+
+/* Remove text area padding */ .form-2fGMdU { padding: 0; }
+/* Change text area bottom margin */ .channelTextArea-rNsIhG { margin-bottom: 20px; }
+
+// Title area for selected channel/DM (turn into panel)
+.title-3qD0b- {
+    background-color: var(--background-secondary) !important;
+    box-sizing: border-box;
+    height: 40px;
+    border-radius: 20px;
+}
+/* Remove random little gradient thing in title bar that you never notice anyway */ .children-19S4PO:after { display: none; }
+
+// Settings button
+.container-3baos1 > .flex-1xMQg5 {
+    > button:last-child {
+        position: absolute;
+        top: -55px;
+        right: 20px;
+    
+        width: var(--HSL-server-icon-size);
+        height: var(--HSL-server-icon-size);
+        border-radius: 100%;
+        transition: background-color 0.2s;
+        margin-left: var(--HSL-server-spacing);
+
+        background-color: var(--background-tertiary);
+    
+        svg {
+            width: 25px;
+            height: 25px;
+        }
+    }
+
+    > button:last-child:hover {
+        background-color: #0481ff !important;
+        color: white !important;
+    }
+}
+
+// Avatar from user area
+.avatarWrapper-2yR4wp {
+    position: absolute;
+    top: -55px;
+    right: 197px;
+
+    .avatar-SmRMf2 {
+        width: var(--HSL-server-icon-size) !important;
+        height: var(--HSL-server-icon-size) !important;
+    }
+}
+
+// Name from user area
+.nameTag-3uD-yy {
+    position: absolute;
+    top: -47px;
+    right: 70px;
+    width: 125px;
+}
+
+// Settings background
+.uploadModal-2ifh8j, .root-1gCeng, .sidebarRegionScroller-3MXcoP, .container-1D34oG, .nowPlayingColumn-2sl4cE, .tree-2wKJdG {
+    background-color: var(--background-primary) !important;
+}
+
+.menu-3sdvDG {
+    background-color: var(--background-tertiary);
+}
+
+.css-gvi9bl-control, .footer-3mqk7D {
+    background-color: var(--background-secondary) !important;
+}
+
+.scroller-1Bvpku {
+    margin-bottom: 260px;
+}

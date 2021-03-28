@@ -1,0 +1,21 @@
+@use "source.scss";
+@use "usrbg.scss";
+
+@import url("https://discordstyles.github.io/HorizontalServerList/base.css");
+
+:root {
+    --HSL-server-icon-size: 45px;  /* Size of the server icons | DEFAULT: 40px */
+    --HSL-server-spacing: 15px;  /* Spacing between each server icon | DEFAULT: 10px */
+}
+
+.theme-dark {
+    --background-primary: black; /* Primary background color | DEFAULT: black */
+    --background-secondary: #111111; /* Secondary background color | DEFAULT: #252525 */
+    --background-tertiary: #252525; /* Tertiary background color | DEFAULT: #464646 */
+}
+
+.theme-light {
+    --background-primary: #f2f2f2; /* Primary background color | DEFAULT: #f2f2f2 */
+    --background-secondary: white; /* Secondary background color | DEFAULT: white */
+    --background-tertiary: #e5e5e5; /* Tertiary background color | DEFAULT: #e5e5e5*/
+}

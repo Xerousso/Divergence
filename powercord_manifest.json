@@ -1,0 +1,8 @@
+{
+    "name": "Divergence",
+    "version": "1",
+    "license": "MIT",
+    "theme": "theme.scss",
+    "author": "Jennifer#0002",
+    "description": "Smooth panels, divergent contrast.  Divergence is a fresh look on the classic Discord experience, based on Samsung's One UI for Android."
+}
